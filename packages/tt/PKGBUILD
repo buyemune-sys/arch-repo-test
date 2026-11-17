@@ -3,10 +3,10 @@
 # go-openssl does not build with OpenSSL 4.
 
 pkgname=tt
-pkgver=2.15.1
+pkgver=2.15.2
 pkgrel=1
 # The commit of the tag v$pkgver, which tt version reports.
-_commit=c2be0e6ae2d673b93e150d2f0b527f9fa54f60fd
+_commit=bd6ade645e0a5f0a573cfdb1e37595b58058e909
 pkgdesc='Command-line utility to manage Tarantool applications'
 arch=(x86_64)
 url=https://github.com/tarantool/tt
@@ -25,7 +25,7 @@ options=(!debug !lto)
 source=("https://github.com/tarantool/tt/releases/download/v$pkgver/tt-$pkgver-complete.tar.gz"
         tt.sysusers
         tt.tmpfiles)
-sha256sums=('7850fcf2f48df3e804acdb6bc8dbe2ced7ab0761d565d9b14437bccd02acdfdb'
+sha256sums=('8db35fb323fa84f3d83914ed2461e40604171c4793b496d6dfc804618e8d0fac'
             'a87575b2b3e3a0f1ee546528e702de893f3ae4323003bd42d93f649cd4a4e20f'
             '6763c8c5bd84d6f045936fb479d478b6fd5c4a355b511b3074c5e6318fbe66c9')
 
